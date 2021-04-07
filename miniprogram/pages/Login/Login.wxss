@@ -1,1 +1,55 @@
 /* miniprogram/pages/Login/Login.wxss */
+.label{
+  display:flex;
+  justify-content: center;
+}
+.section{
+  margin-top: 50rpx;
+  margin-left: 185rpx;
+}
+.user{
+  /* 水平居中 */
+  margin:20rpx auto;    
+  display:flex;
+  border-style: solid;
+  border-bottom: 0ch;
+  border-width: 1rpx;
+  width: 90%;
+  height: 150rpx;
+  /* margin-left: 5%; */
+}
+.user view{
+  width: 168rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+.user input{
+  height: 100%;
+}
+.passward{
+  margin:0 auto;
+  margin-top: 20rpx;
+  display:flex;
+  border-style: solid;
+  border-width: 1rpx;
+  width: 90%;
+  height: 150rpx;
+  /* margin-left: 5%; */
+}
+.passward view{
+  width: 168rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+.passward input{
+  height: 100%;
+}
+.btn{
+  border-style: solid;
+  border-top-width: 1rpx;
+  margin-top: 50rpx;
+}

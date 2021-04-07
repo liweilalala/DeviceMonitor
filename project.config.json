@@ -39,7 +39,7 @@
   },
   "appid": "wx4d135b0a58aeb096",
   "projectname": "DeviceMonitor",
-  "libVersion": "2.14.1",
+  "libVersion": "2.16.0",
   "condition": {
     "search": {
       "list": []
