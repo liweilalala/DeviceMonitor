@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/Login/Login",
+    "pages/status/status",
+    "pages/warning/warning",
+    "pages/logs/logs",
+    "pages/chat/chat",
+    "pages/Admin/command/command",
+    "pages/Admin/request/request"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "DeviceMonitor",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/status/status",
+        "text": "状态"
+      },
+      {
+        "pagePath": "pages/warning/warning",
+        "text": "预警"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "text": "消息"
+      }
+    ],
+    "list":[
+      {
+        "pagePath": "pages/Admin/request/request",
+        "text":"报告"
+      },
+      {
+        "pagePath": "pages/Admin/command/command",
+        "text":"指示"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

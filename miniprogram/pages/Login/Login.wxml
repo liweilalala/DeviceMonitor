@@ -1,0 +1,21 @@
+<view>
+  <form bindsubmit='login'>
+    <text class="label">Choose Your Identity</text>
+    <view class="section">
+      <picker bindchange="bindPickerChange"  value="{{index}}" range="{{array}}">
+        <view class="picker">
+          {{array[index]}}
+        </view>
+      </picker>
+    </view>
+    <view class="user">
+      <view>user</view>
+      <input type="text"></input>
+    </view>
+    <view class="passward">
+      <view>passward</view>
+      <input type="text"></input>
+    </view>
+    <button class='btn' form-type='submit'>登录</button>
+  </form>
+</view>
